@@ -36,6 +36,27 @@ wget -O- https://raw.githubusercontent.com/sbculg/vpstest/master/LemonBenchIntl.
 wget -qO- git.io/superbench.sh | bash
 ```
 
+<br>
+
+5、 bbr/bbrplus/bbr2/锐速
+不卸载内核
+```
+wget -N --no-check-certificate "https://github.000060000.xyz/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
+```
+或
+```
+wget -N "https://github.000060000.xyz/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
+```
+卸载内核
+```
+wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
+或
+```
+wget -N "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+```
+
+
 
 <br>
 <br>
