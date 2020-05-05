@@ -16,14 +16,25 @@ bash testrace.sh
 ```
 dd if=/dev/zero of=500M.test bs=1M count=500
 ```
+
 <br>
 
-3、简易下载脚本
+3、简易下载脚本<br>
 ```
 wget https://raw.githubusercontent.com/sbculg/vpstest/master/pythonhttp.sh
 ```
 
+<br>
 
+4、VPS测试脚本<br>
+  1) CPU<br>
+```
+wget -O- https://raw.githubusercontent.com/sbculg/vpstest/master/LemonBenchIntl.sh | bash
+```
+  2) IO<br>
+```
+wget -qO- git.io/superbench.sh | bash
+```
 
 
 <br>
