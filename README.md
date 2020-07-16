@@ -30,7 +30,11 @@ wget https://raw.githubusercontent.com/sbculg/vpstest/master/pythonhttp.sh
   1) CPU<br>
 ```
 wget -O- https://raw.githubusercontent.com/sbculg/vpstest/master/LemonBenchIntl.sh | bash
+curl -fsL https://ilemonra.in/LemonBenchIntl | bash -s fast
+
 ```
+
+
   2) IO<br>
 ```
 wget -qO- git.io/superbench.sh | bash
