@@ -60,12 +60,11 @@ wget -N --no-check-certificate "https://github.000060000.xyz/tcp.sh" && chmod +x
 wget -N "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 ```
 <br>
-6、 宝塔面板删除强制验证
-方法1:
+6、 宝塔面板删除强制验证<br>
 ```
 sed -i "s|if (bind_user == 'True') {|if (bind_user == 'REMOVED') {|g" /www/server/panel/BTPanel/static/js/index.js
 ```
-方法2:
+或
 ```
 rm -f /www/server/panel/data/bind.pl
 ```
