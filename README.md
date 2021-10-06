@@ -63,10 +63,6 @@ wget -N "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
 6、 宝塔面板删除强制验证
 ```
-sed -i "s|if (bind_user == 'True') {|if (bind_user == 'REMOVED') {|g" /www/server/panel/BTPanel/static/js/index.js
-```
-或
-```
 rm -f /www/server/panel/data/bind.pl
 ```
 
