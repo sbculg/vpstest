@@ -65,7 +65,12 @@ wget -N "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 ```
 rm -f /www/server/panel/data/bind.pl
 ```
+<br>
 
+7、NF、Ytb流媒体检测
+```
+bash <(curl -sSL "https://github.com/CoiaPrant/MediaUnlock_Test/raw/main/check.sh")
+```
 <br>
 <br>
 秋水逸冰: https://github.com/Puuoi/SS-R-4in1
