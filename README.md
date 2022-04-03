@@ -72,15 +72,17 @@ rm -f /www/server/panel/data/bind.pl
 bash <(curl -sSL "https://github.com/CoiaPrant/MediaUnlock_Test/raw/main/check.sh")
 ```
 <br>
-<br>
-秋水逸冰: https://github.com/Puuoi/SS-R-4in1
 
-<br>
 8、宝塔7.7备份
-btpanel-v7.7.0-backup 官方原版v7.7.0版本面板备份
-Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7）
+btpanel-v7.7.0-backup 官方原版v7.7.0版本面板备份,Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7）https://github.com/zhucaidan/btpanel-v7.7.0
 ```
 curl -sSO https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
 ```
 
-https://github.com/zhucaidan/btpanel-v7.7.0
+
+<br>
+秋水逸冰: https://github.com/Puuoi/SS-R-4in1
+
+
+
+
